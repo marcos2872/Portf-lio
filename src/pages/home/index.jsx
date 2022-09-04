@@ -1,12 +1,15 @@
-import React from 'react'
-import { Home } from './styles'
+import React, { useState } from 'react'
+import { Body, Title } from './styles'
 
-function Index() {
+function Home({darck}) {
+  
   return (
-    <Home>
-        Home
-    </Home>
+    <Body>
+      <Title darck={darck}>
+      Portfólio
+      </Title>
+    </Body>
   )
 }
 
-export default Index;
+export default Home;
